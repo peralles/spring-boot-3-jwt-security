@@ -1,15 +1,15 @@
-package com.alibou.security;
+package com.peralles.security;
 
-import com.alibou.security.auth.AuthenticationService;
-import com.alibou.security.auth.RegisterRequest;
-import com.alibou.security.user.Role;
+import static com.peralles.security.user.Role.ADMIN;
+import static com.peralles.security.user.Role.MANAGER;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import static com.alibou.security.user.Role.ADMIN;
-import static com.alibou.security.user.Role.MANAGER;
+import com.peralles.security.auth.AuthenticationService;
+import com.peralles.security.auth.RegisterRequest;
 
 @SpringBootApplication
 public class SecurityApplication {
@@ -20,8 +20,7 @@ public class SecurityApplication {
 
 	@Bean
 	public CommandLineRunner commandLineRunner(
-			AuthenticationService service
-	) {
+			AuthenticationService service) {
 		return args -> {
 			var admin = RegisterRequest.builder()
 					.firstname("Admin")

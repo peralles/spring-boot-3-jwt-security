@@ -1,6 +1,7 @@
-package com.alibou.security.token;
+package com.peralles.security.token;
 
-import com.alibou.security.user.User;
+import com.peralles.security.user.User;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

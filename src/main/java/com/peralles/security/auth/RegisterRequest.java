@@ -1,6 +1,7 @@
-package com.alibou.security.auth;
+package com.peralles.security.auth;
 
-import com.alibou.security.user.Role;
+import com.peralles.security.user.Role;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
