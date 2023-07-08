@@ -2,7 +2,6 @@ package com.peralles.security.auth;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.peralles.security.config.JwtService;
-import com.peralles.security.domain.user.Role;
 import com.peralles.security.domain.user.User;
 import com.peralles.security.domain.user.UserRepository;
 import com.peralles.security.token.Token;
@@ -15,10 +14,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
