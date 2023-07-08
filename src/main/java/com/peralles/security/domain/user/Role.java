@@ -1,17 +1,17 @@
-package com.peralles.security.user;
+package com.peralles.security.domain.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
-import static com.peralles.security.user.Permission.ADMIN_CREATE;
-import static com.peralles.security.user.Permission.ADMIN_DELETE;
-import static com.peralles.security.user.Permission.ADMIN_READ;
-import static com.peralles.security.user.Permission.ADMIN_UPDATE;
-import static com.peralles.security.user.Permission.MANAGER_CREATE;
-import static com.peralles.security.user.Permission.MANAGER_DELETE;
-import static com.peralles.security.user.Permission.MANAGER_READ;
-import static com.peralles.security.user.Permission.MANAGER_UPDATE;
+import static com.peralles.security.domain.user.Permission.ADMIN_CREATE;
+import static com.peralles.security.domain.user.Permission.ADMIN_DELETE;
+import static com.peralles.security.domain.user.Permission.ADMIN_READ;
+import static com.peralles.security.domain.user.Permission.ADMIN_UPDATE;
+import static com.peralles.security.domain.user.Permission.MANAGER_CREATE;
+import static com.peralles.security.domain.user.Permission.MANAGER_DELETE;
+import static com.peralles.security.domain.user.Permission.MANAGER_READ;
+import static com.peralles.security.domain.user.Permission.MANAGER_UPDATE;
 
 import java.util.Collections;
 import java.util.List;

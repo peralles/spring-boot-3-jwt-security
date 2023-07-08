@@ -2,12 +2,12 @@ package com.peralles.security.auth;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.peralles.security.config.JwtService;
+import com.peralles.security.domain.user.Role;
+import com.peralles.security.domain.user.User;
+import com.peralles.security.domain.user.UserRepository;
 import com.peralles.security.token.Token;
 import com.peralles.security.token.TokenRepository;
 import com.peralles.security.token.TokenType;
-import com.peralles.security.user.Role;
-import com.peralles.security.user.User;
-import com.peralles.security.user.UserRepository;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

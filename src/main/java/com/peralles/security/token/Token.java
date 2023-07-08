@@ -1,6 +1,6 @@
 package com.peralles.security.token;
 
-import com.peralles.security.user.User;
+import com.peralles.security.domain.user.User;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

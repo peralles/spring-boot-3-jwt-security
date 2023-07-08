@@ -1,7 +1,7 @@
 package com.peralles.security;
 
-import static com.peralles.security.user.Role.ADMIN;
-import static com.peralles.security.user.Role.MANAGER;
+import static com.peralles.security.domain.user.Role.ADMIN;
+import static com.peralles.security.domain.user.Role.MANAGER;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

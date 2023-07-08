@@ -1,6 +1,6 @@
 package com.peralles.security.auth;
 
-import com.peralles.security.user.Role;
+import com.peralles.security.domain.user.Role;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

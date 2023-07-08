@@ -1,4 +1,4 @@
-package com.peralles.security.user;
+package com.peralles.security.domain.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
