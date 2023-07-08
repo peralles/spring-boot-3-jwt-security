@@ -1,3 +1,11 @@
+server:
+  port: 3000
+  servlet:
+    context-path: /authentication
+  compression:
+    enabled: true
+  http2:
+    enabled: true
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
